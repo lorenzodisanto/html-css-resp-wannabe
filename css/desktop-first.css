@@ -1,0 +1,57 @@
+/* MEDIA QUERY 1160PX */
+@media screen and (max-width: 1160px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* MEDIA QUERY 768PX */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERY 480PX */
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .lessons .row,
+  .steps .row,
+  .why-us .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.4rem;
+    gap: 60px;
+  }
+
+  .lessons .col,
+  .steps .col,
+  .why-us .col {
+    width: 100%;
+  }
+
+  .steps {
+    margin-bottom: 0;
+  }
+
+  .why-us {
+    background-color: #222222;
+    padding: 3rem 0;
+    margin-bottom: 0;
+  }
+}
